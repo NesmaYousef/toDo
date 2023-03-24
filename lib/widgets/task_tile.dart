@@ -7,6 +7,7 @@ class TaskTile extends StatelessWidget {
 
   TaskTile({required this.isChecked, required this.taskTitle, required this.checkboxChange});
 
+  @override
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(
